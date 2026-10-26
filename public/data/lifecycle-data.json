@@ -1,0 +1,1769 @@
+{
+  "provenance": {
+    "synthetic": true,
+    "source": "Generated examples; no original records or fitted predictions.",
+    "generator": "scripts/generate-demo-data.mjs",
+    "version": 1
+  },
+  "generatedAt": "2026-10-26T00:00:00Z",
+  "summary": {
+    "itemCount": 12,
+    "centerCount": 5
+  },
+  "items": [
+    {
+      "itemCode": "DEMO-SKU-001",
+      "itemName": "데모 코코아 크런치",
+      "launchDate": "2025-12-31",
+      "d5QtySum": 4110,
+      "targetWeekCount": 8,
+      "predictedTotal": 12364,
+      "actualTotal": 11966,
+      "predictionRatio": 1.0332609059000502,
+      "absoluteError": 398,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 2300,
+          "actual": 2070,
+          "predictedCum": 2300,
+          "actualCum": 2070
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 2085,
+          "actual": 2043,
+          "predictedCum": 4385,
+          "actualCum": 4113
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 1869,
+          "actual": 1981,
+          "predictedCum": 6254,
+          "actualCum": 6094
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 1653,
+          "actual": 1488,
+          "predictedCum": 7907,
+          "actualCum": 7582
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 1438,
+          "actual": 1409,
+          "predictedCum": 9345,
+          "actualCum": 8991
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 1222,
+          "actual": 1295,
+          "predictedCum": 10567,
+          "actualCum": 10286
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1006,
+          "actual": 905,
+          "predictedCum": 11573,
+          "actualCum": 11191
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 791,
+          "actual": 775,
+          "predictedCum": 12364,
+          "actualCum": 11966
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 2646,
+          "initialQty": 2646,
+          "reserveQty": 1315,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 3956,
+          "actualSales": 3829
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 2150,
+          "initialQty": 2150,
+          "reserveQty": 1069,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 3215,
+          "actualSales": 3111
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 1819,
+          "initialQty": 1819,
+          "reserveQty": 904,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 2720,
+          "actualSales": 2633
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1158,
+          "initialQty": 1158,
+          "reserveQty": 575,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 1731,
+          "actualSales": 1675
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 495,
+          "initialQty": 495,
+          "reserveQty": 247,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 742,
+          "actualSales": 718
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-002",
+      "itemName": "데모 통밀 비스킷",
+      "launchDate": "2025-12-31",
+      "d5QtySum": 4789,
+      "targetWeekCount": 8,
+      "predictedTotal": 15494,
+      "actualTotal": 14998,
+      "predictionRatio": 1.0330710761434858,
+      "absoluteError": 496,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 2883,
+          "actual": 2595,
+          "predictedCum": 2883,
+          "actualCum": 2595
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 2612,
+          "actual": 2560,
+          "predictedCum": 5495,
+          "actualCum": 5155
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 2342,
+          "actual": 2483,
+          "predictedCum": 7837,
+          "actualCum": 7638
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2072,
+          "actual": 1865,
+          "predictedCum": 9909,
+          "actualCum": 9503
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 1802,
+          "actual": 1766,
+          "predictedCum": 11711,
+          "actualCum": 11269
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 1531,
+          "actual": 1623,
+          "predictedCum": 13242,
+          "actualCum": 12892
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1261,
+          "actual": 1135,
+          "predictedCum": 14503,
+          "actualCum": 14027
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 991,
+          "actual": 971,
+          "predictedCum": 15494,
+          "actualCum": 14998
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 3313,
+          "initialQty": 3313,
+          "reserveQty": 1532,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 4958,
+          "actualSales": 4799
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 2692,
+          "initialQty": 2692,
+          "reserveQty": 1245,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 4028,
+          "actualSales": 3899
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 2277,
+          "initialQty": 2277,
+          "reserveQty": 1054,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 3409,
+          "actualSales": 3300
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1449,
+          "initialQty": 1449,
+          "reserveQty": 670,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 2169,
+          "actualSales": 2100
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 621,
+          "initialQty": 621,
+          "reserveQty": 287,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 930,
+          "actualSales": 900
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-003",
+      "itemName": "데모 허브 포테이토",
+      "launchDate": "2025-12-31",
+      "d5QtySum": 5468,
+      "targetWeekCount": 8,
+      "predictedTotal": 18920,
+      "actualTotal": 18313,
+      "predictionRatio": 1.0331458526729647,
+      "absoluteError": 607,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 3520,
+          "actual": 3168,
+          "predictedCum": 3520,
+          "actualCum": 3168
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 3190,
+          "actual": 3126,
+          "predictedCum": 6710,
+          "actualCum": 6294
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 2860,
+          "actual": 3032,
+          "predictedCum": 9570,
+          "actualCum": 9326
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2530,
+          "actual": 2277,
+          "predictedCum": 12100,
+          "actualCum": 11603
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2200,
+          "actual": 2156,
+          "predictedCum": 14300,
+          "actualCum": 13759
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 1870,
+          "actual": 1982,
+          "predictedCum": 16170,
+          "actualCum": 15741
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1540,
+          "actual": 1386,
+          "predictedCum": 17710,
+          "actualCum": 17127
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1210,
+          "actual": 1186,
+          "predictedCum": 18920,
+          "actualCum": 18313
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 4045,
+          "initialQty": 4045,
+          "reserveQty": 1750,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 6054,
+          "actualSales": 5860
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 3286,
+          "initialQty": 3286,
+          "reserveQty": 1422,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 4919,
+          "actualSales": 4761
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 2781,
+          "initialQty": 2781,
+          "reserveQty": 1203,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 4162,
+          "actualSales": 4029
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1770,
+          "initialQty": 1770,
+          "reserveQty": 766,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 2649,
+          "actualSales": 2564
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 758,
+          "initialQty": 758,
+          "reserveQty": 328,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1135,
+          "actualSales": 1099
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-004",
+      "itemName": "데모 베리 웨이퍼",
+      "launchDate": "2025-12-31",
+      "d5QtySum": 5013,
+      "targetWeekCount": 8,
+      "predictedTotal": 15108,
+      "actualTotal": 14624,
+      "predictionRatio": 1.0330962800875274,
+      "absoluteError": 484,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 2811,
+          "actual": 2530,
+          "predictedCum": 2811,
+          "actualCum": 2530
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 2547,
+          "actual": 2496,
+          "predictedCum": 5358,
+          "actualCum": 5026
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 2284,
+          "actual": 2421,
+          "predictedCum": 7642,
+          "actualCum": 7447
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2020,
+          "actual": 1818,
+          "predictedCum": 9662,
+          "actualCum": 9265
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 1757,
+          "actual": 1722,
+          "predictedCum": 11419,
+          "actualCum": 10987
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 1493,
+          "actual": 1583,
+          "predictedCum": 12912,
+          "actualCum": 12570
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1230,
+          "actual": 1107,
+          "predictedCum": 14142,
+          "actualCum": 13677
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 966,
+          "actual": 947,
+          "predictedCum": 15108,
+          "actualCum": 14624
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 3233,
+          "initialQty": 3233,
+          "reserveQty": 1604,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 4835,
+          "actualSales": 4680
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 2627,
+          "initialQty": 2627,
+          "reserveQty": 1303,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 3928,
+          "actualSales": 3802
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 2223,
+          "initialQty": 2223,
+          "reserveQty": 1103,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 3324,
+          "actualSales": 3217
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1415,
+          "initialQty": 1415,
+          "reserveQty": 702,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 2115,
+          "actualSales": 2047
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 606,
+          "initialQty": 606,
+          "reserveQty": 301,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 906,
+          "actualSales": 877
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-005",
+      "itemName": "데모 고소한 라이스칩",
+      "launchDate": "2025-12-15",
+      "d5QtySum": 5692,
+      "targetWeekCount": 8,
+      "predictedTotal": 18411,
+      "actualTotal": 17820,
+      "predictionRatio": 1.0331649831649832,
+      "absoluteError": 591,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 3425,
+          "actual": 3083,
+          "predictedCum": 3425,
+          "actualCum": 3083
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 3104,
+          "actual": 3042,
+          "predictedCum": 6529,
+          "actualCum": 6125
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 2783,
+          "actual": 2950,
+          "predictedCum": 9312,
+          "actualCum": 9075
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2462,
+          "actual": 2216,
+          "predictedCum": 11774,
+          "actualCum": 11291
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2141,
+          "actual": 2098,
+          "predictedCum": 13915,
+          "actualCum": 13389
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 1820,
+          "actual": 1929,
+          "predictedCum": 15735,
+          "actualCum": 15318
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1499,
+          "actual": 1349,
+          "predictedCum": 17234,
+          "actualCum": 16667
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1177,
+          "actual": 1153,
+          "predictedCum": 18411,
+          "actualCum": 17820
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 3940,
+          "initialQty": 3940,
+          "reserveQty": 1821,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 5892,
+          "actualSales": 5702
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 3201,
+          "initialQty": 3201,
+          "reserveQty": 1480,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 4787,
+          "actualSales": 4633
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 2709,
+          "initialQty": 2709,
+          "reserveQty": 1252,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 4050,
+          "actualSales": 3920
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1724,
+          "initialQty": 1724,
+          "reserveQty": 797,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 2578,
+          "actualSales": 2495
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 738,
+          "initialQty": 738,
+          "reserveQty": 342,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1105,
+          "actualSales": 1069
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-006",
+      "itemName": "데모 시나몬 쿠키",
+      "launchDate": "2025-12-06",
+      "d5QtySum": 6371,
+      "targetWeekCount": 8,
+      "predictedTotal": 22016,
+      "actualTotal": 21311,
+      "predictionRatio": 1.033081507202853,
+      "absoluteError": 705,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 4096,
+          "actual": 3686,
+          "predictedCum": 4096,
+          "actualCum": 3686
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 3712,
+          "actual": 3638,
+          "predictedCum": 7808,
+          "actualCum": 7324
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 3328,
+          "actual": 3528,
+          "predictedCum": 11136,
+          "actualCum": 10852
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2944,
+          "actual": 2650,
+          "predictedCum": 14080,
+          "actualCum": 13502
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2560,
+          "actual": 2509,
+          "predictedCum": 16640,
+          "actualCum": 16011
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 2176,
+          "actual": 2307,
+          "predictedCum": 18816,
+          "actualCum": 18318
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1792,
+          "actual": 1613,
+          "predictedCum": 20608,
+          "actualCum": 19931
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1408,
+          "actual": 1380,
+          "predictedCum": 22016,
+          "actualCum": 21311
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 4710,
+          "initialQty": 4710,
+          "reserveQty": 2039,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 7045,
+          "actualSales": 6820
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 3827,
+          "initialQty": 3827,
+          "reserveQty": 1656,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 5724,
+          "actualSales": 5541
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 3238,
+          "initialQty": 3238,
+          "reserveQty": 1402,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 4844,
+          "actualSales": 4688
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 2061,
+          "initialQty": 2061,
+          "reserveQty": 892,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 3082,
+          "actualSales": 2984
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 884,
+          "initialQty": 884,
+          "reserveQty": 382,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1321,
+          "actualSales": 1279
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-007",
+      "itemName": "데모 바닐라 샌드",
+      "launchDate": "2025-11-27",
+      "d5QtySum": 5916,
+      "targetWeekCount": 8,
+      "predictedTotal": 17819,
+      "actualTotal": 17249,
+      "predictionRatio": 1.0330453939358804,
+      "absoluteError": 570,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 3315,
+          "actual": 2984,
+          "predictedCum": 3315,
+          "actualCum": 2984
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 3004,
+          "actual": 2944,
+          "predictedCum": 6319,
+          "actualCum": 5928
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 2694,
+          "actual": 2856,
+          "predictedCum": 9013,
+          "actualCum": 8784
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2383,
+          "actual": 2145,
+          "predictedCum": 11396,
+          "actualCum": 10929
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2072,
+          "actual": 2031,
+          "predictedCum": 13468,
+          "actualCum": 12960
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 1761,
+          "actual": 1867,
+          "predictedCum": 15229,
+          "actualCum": 14827
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1450,
+          "actual": 1305,
+          "predictedCum": 16679,
+          "actualCum": 16132
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1140,
+          "actual": 1117,
+          "predictedCum": 17819,
+          "actualCum": 17249
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 3814,
+          "initialQty": 3814,
+          "reserveQty": 1893,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 5702,
+          "actualSales": 5520
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 3099,
+          "initialQty": 3099,
+          "reserveQty": 1538,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 4633,
+          "actualSales": 4485
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 2622,
+          "initialQty": 2622,
+          "reserveQty": 1302,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 3920,
+          "actualSales": 3795
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1669,
+          "initialQty": 1669,
+          "reserveQty": 828,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 2495,
+          "actualSales": 2415
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 716,
+          "initialQty": 716,
+          "reserveQty": 355,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1069,
+          "actualSales": 1035
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-008",
+      "itemName": "데모 솔티 크래커",
+      "launchDate": "2025-11-18",
+      "d5QtySum": 6595,
+      "targetWeekCount": 8,
+      "predictedTotal": 21342,
+      "actualTotal": 20658,
+      "predictionRatio": 1.0331106593087425,
+      "absoluteError": 684,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 3971,
+          "actual": 3574,
+          "predictedCum": 3971,
+          "actualCum": 3574
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 3598,
+          "actual": 3526,
+          "predictedCum": 7569,
+          "actualCum": 7100
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 3226,
+          "actual": 3420,
+          "predictedCum": 10795,
+          "actualCum": 10520
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2854,
+          "actual": 2569,
+          "predictedCum": 13649,
+          "actualCum": 13089
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2482,
+          "actual": 2432,
+          "predictedCum": 16131,
+          "actualCum": 15521
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 2109,
+          "actual": 2236,
+          "predictedCum": 18240,
+          "actualCum": 17757
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1737,
+          "actual": 1563,
+          "predictedCum": 19977,
+          "actualCum": 19320
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1365,
+          "actual": 1338,
+          "predictedCum": 21342,
+          "actualCum": 20658
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 4570,
+          "initialQty": 4570,
+          "reserveQty": 2110,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 6829,
+          "actualSales": 6611
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 3713,
+          "initialQty": 3713,
+          "reserveQty": 1715,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 5549,
+          "actualSales": 5371
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 3142,
+          "initialQty": 3142,
+          "reserveQty": 1451,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 4695,
+          "actualSales": 4545
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1999,
+          "initialQty": 1999,
+          "reserveQty": 923,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 2988,
+          "actualSales": 2892
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 856,
+          "initialQty": 856,
+          "reserveQty": 396,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1281,
+          "actualSales": 1239
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-009",
+      "itemName": "데모 메이플 팝콘",
+      "launchDate": "2025-11-09",
+      "d5QtySum": 7274,
+      "targetWeekCount": 8,
+      "predictedTotal": 25140,
+      "actualTotal": 24333,
+      "predictionRatio": 1.0331648378744915,
+      "absoluteError": 807,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 4677,
+          "actual": 4209,
+          "predictedCum": 4677,
+          "actualCum": 4209
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 4239,
+          "actual": 4154,
+          "predictedCum": 8916,
+          "actualCum": 8363
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 3800,
+          "actual": 4028,
+          "predictedCum": 12716,
+          "actualCum": 12391
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 3362,
+          "actual": 3026,
+          "predictedCum": 16078,
+          "actualCum": 15417
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2923,
+          "actual": 2865,
+          "predictedCum": 19001,
+          "actualCum": 18282
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 2485,
+          "actual": 2634,
+          "predictedCum": 21486,
+          "actualCum": 20916
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 2046,
+          "actual": 1841,
+          "predictedCum": 23532,
+          "actualCum": 22757
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1608,
+          "actual": 1576,
+          "predictedCum": 25140,
+          "actualCum": 24333
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 5380,
+          "initialQty": 5380,
+          "reserveQty": 2328,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 8045,
+          "actualSales": 7787
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 4371,
+          "initialQty": 4371,
+          "reserveQty": 1891,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 6536,
+          "actualSales": 6327
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 3699,
+          "initialQty": 3699,
+          "reserveQty": 1600,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 5531,
+          "actualSales": 5353
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 2354,
+          "initialQty": 2354,
+          "reserveQty": 1018,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 3520,
+          "actualSales": 3407
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 1008,
+          "initialQty": 1008,
+          "reserveQty": 436,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1508,
+          "actualSales": 1460
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-010",
+      "itemName": "데모 오트 바이트",
+      "launchDate": "2025-10-31",
+      "d5QtySum": 6819,
+      "targetWeekCount": 8,
+      "predictedTotal": 20529,
+      "actualTotal": 19871,
+      "predictionRatio": 1.0331135826078204,
+      "absoluteError": 658,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 3820,
+          "actual": 3438,
+          "predictedCum": 3820,
+          "actualCum": 3438
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 3461,
+          "actual": 3392,
+          "predictedCum": 7281,
+          "actualCum": 6830
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 3103,
+          "actual": 3289,
+          "predictedCum": 10384,
+          "actualCum": 10119
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 2745,
+          "actual": 2471,
+          "predictedCum": 13129,
+          "actualCum": 12590
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2387,
+          "actual": 2339,
+          "predictedCum": 15516,
+          "actualCum": 14929
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 2029,
+          "actual": 2151,
+          "predictedCum": 17545,
+          "actualCum": 17080
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1671,
+          "actual": 1504,
+          "predictedCum": 19216,
+          "actualCum": 18584
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1313,
+          "actual": 1287,
+          "predictedCum": 20529,
+          "actualCum": 19871
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 4393,
+          "initialQty": 4393,
+          "reserveQty": 2182,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 6569,
+          "actualSales": 6359
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 3569,
+          "initialQty": 3569,
+          "reserveQty": 1773,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 5338,
+          "actualSales": 5166
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 3020,
+          "initialQty": 3020,
+          "reserveQty": 1500,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 4516,
+          "actualSales": 4372
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 1922,
+          "initialQty": 1922,
+          "reserveQty": 955,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 2874,
+          "actualSales": 2782
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 824,
+          "initialQty": 824,
+          "reserveQty": 409,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1232,
+          "actualSales": 1192
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-011",
+      "itemName": "데모 흑임자 쿠키",
+      "launchDate": "2025-10-22",
+      "d5QtySum": 7498,
+      "targetWeekCount": 8,
+      "predictedTotal": 24252,
+      "actualTotal": 23475,
+      "predictionRatio": 1.0330990415335464,
+      "absoluteError": 777,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 4512,
+          "actual": 4061,
+          "predictedCum": 4512,
+          "actualCum": 4061
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 4089,
+          "actual": 4007,
+          "predictedCum": 8601,
+          "actualCum": 8068
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 3666,
+          "actual": 3886,
+          "predictedCum": 12267,
+          "actualCum": 11954
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 3243,
+          "actual": 2919,
+          "predictedCum": 15510,
+          "actualCum": 14873
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 2820,
+          "actual": 2764,
+          "predictedCum": 18330,
+          "actualCum": 17637
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 2397,
+          "actual": 2541,
+          "predictedCum": 20727,
+          "actualCum": 20178
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 1974,
+          "actual": 1777,
+          "predictedCum": 22701,
+          "actualCum": 21955
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1551,
+          "actual": 1520,
+          "predictedCum": 24252,
+          "actualCum": 23475
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 5190,
+          "initialQty": 5190,
+          "reserveQty": 2399,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 7761,
+          "actualSales": 7512
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 4217,
+          "initialQty": 4217,
+          "reserveQty": 1949,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 6306,
+          "actualSales": 6104
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 3568,
+          "initialQty": 3568,
+          "reserveQty": 1650,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 5335,
+          "actualSales": 5165
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 2271,
+          "initialQty": 2271,
+          "reserveQty": 1050,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 3395,
+          "actualSales": 3287
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 974,
+          "initialQty": 974,
+          "reserveQty": 450,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1455,
+          "actualSales": 1409
+        }
+      ]
+    },
+    {
+      "itemCode": "DEMO-SKU-012",
+      "itemName": "데모 허니 스틱",
+      "launchDate": "2025-10-13",
+      "d5QtySum": 8177,
+      "targetWeekCount": 8,
+      "predictedTotal": 28277,
+      "actualTotal": 27370,
+      "predictionRatio": 1.0331384727804165,
+      "absoluteError": 907,
+      "weekly": [
+        {
+          "weekIndex": 1,
+          "predicted": 5261,
+          "actual": 4735,
+          "predictedCum": 5261,
+          "actualCum": 4735
+        },
+        {
+          "weekIndex": 2,
+          "predicted": 4768,
+          "actual": 4673,
+          "predictedCum": 10029,
+          "actualCum": 9408
+        },
+        {
+          "weekIndex": 3,
+          "predicted": 4274,
+          "actual": 4530,
+          "predictedCum": 14303,
+          "actualCum": 13938
+        },
+        {
+          "weekIndex": 4,
+          "predicted": 3781,
+          "actual": 3403,
+          "predictedCum": 18084,
+          "actualCum": 17341
+        },
+        {
+          "weekIndex": 5,
+          "predicted": 3288,
+          "actual": 3222,
+          "predictedCum": 21372,
+          "actualCum": 20563
+        },
+        {
+          "weekIndex": 6,
+          "predicted": 2795,
+          "actual": 2963,
+          "predictedCum": 24167,
+          "actualCum": 23526
+        },
+        {
+          "weekIndex": 7,
+          "predicted": 2302,
+          "actual": 2072,
+          "predictedCum": 26469,
+          "actualCum": 25598
+        },
+        {
+          "weekIndex": 8,
+          "predicted": 1808,
+          "actual": 1772,
+          "predictedCum": 28277,
+          "actualCum": 27370
+        }
+      ],
+      "centers": [
+        {
+          "centerCode": "DEMO-C01",
+          "centerName": "데모 수도권 센터",
+          "qty": 6052,
+          "initialQty": 6052,
+          "reserveQty": 2617,
+          "reserveShare": 0.32,
+          "storeCount": 384,
+          "storeShare": 0.32,
+          "centerWeight": 1,
+          "allocationIndex": 0.32,
+          "weight": 1,
+          "predictedSales": 9049,
+          "actualSales": 8758
+        },
+        {
+          "centerCode": "DEMO-C02",
+          "centerName": "데모 영남 센터",
+          "qty": 4917,
+          "initialQty": 4917,
+          "reserveQty": 2126,
+          "reserveShare": 0.26,
+          "storeCount": 312,
+          "storeShare": 0.26,
+          "centerWeight": 1,
+          "allocationIndex": 0.26,
+          "weight": 1,
+          "predictedSales": 7352,
+          "actualSales": 7116
+        },
+        {
+          "centerCode": "DEMO-C03",
+          "centerName": "데모 충청 센터",
+          "qty": 4161,
+          "initialQty": 4161,
+          "reserveQty": 1799,
+          "reserveShare": 0.22,
+          "storeCount": 264,
+          "storeShare": 0.22,
+          "centerWeight": 1,
+          "allocationIndex": 0.22,
+          "weight": 1,
+          "predictedSales": 6221,
+          "actualSales": 6021
+        },
+        {
+          "centerCode": "DEMO-C04",
+          "centerName": "데모 호남 센터",
+          "qty": 2648,
+          "initialQty": 2648,
+          "reserveQty": 1145,
+          "reserveShare": 0.14,
+          "storeCount": 168,
+          "storeShare": 0.14,
+          "centerWeight": 1,
+          "allocationIndex": 0.14,
+          "weight": 1,
+          "predictedSales": 3959,
+          "actualSales": 3832
+        },
+        {
+          "centerCode": "DEMO-C05",
+          "centerName": "데모 제주 센터",
+          "qty": 1134,
+          "initialQty": 1134,
+          "reserveQty": 491,
+          "reserveShare": 0.06,
+          "storeCount": 72,
+          "storeShare": 0.06,
+          "centerWeight": 1,
+          "allocationIndex": 0.06,
+          "weight": 1,
+          "predictedSales": 1697,
+          "actualSales": 1642
+        }
+      ]
+    }
+  ],
+  "metrics": [],
+  "featureImportance": []
+}
