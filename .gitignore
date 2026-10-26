@@ -1,4 +1,9 @@
 node_modules/
+.venv/
+modeling/output/
+modeling/artifact/
+**/booster_*.txt
+.pytest_cache/
 dist/
 .DS_Store
 *.log

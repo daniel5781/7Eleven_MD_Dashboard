@@ -1,0 +1,204 @@
+{
+  "provenance": {
+    "synthetic": true,
+    "generator": "modeling.synthetic.generate_tables",
+    "seed": 20261026,
+    "original_data_read": false,
+    "meaning": "Execution example only; not evidence of business accuracy or savings."
+  },
+  "model": "multiplier",
+  "features": 33,
+  "seed_ensemble": [
+    42,
+    202,
+    404,
+    101,
+    777
+  ],
+  "boosting_limit": 200,
+  "rows": 480,
+  "products": 120,
+  "split": {
+    "train": {
+      "rows": 284,
+      "products": 71,
+      "first_decision": "2023-01-10",
+      "last_decision": "2024-05-14"
+    },
+    "validation": {
+      "rows": 92,
+      "products": 23,
+      "first_decision": "2024-05-28",
+      "last_decision": "2024-10-29"
+    },
+    "test": {
+      "rows": 96,
+      "products": 24,
+      "first_decision": "2024-11-12",
+      "last_decision": "2025-04-22"
+    }
+  },
+  "purged_boundary_rows": 8,
+  "validation_selected_alpha": 1.0,
+  "hypothetical_cost_weights": {
+    "under": 1.0,
+    "over": 0.7
+  },
+  "test_metrics": {
+    "formula_qty": {
+      "wmape_pct": 83.76284106110704,
+      "mape_positive_only_pct": 93.7510618009982,
+      "bias_pct": 83.76284106110704,
+      "under_order_volume_pct": 0.0,
+      "over_order_volume_pct": 83.76284106110704
+    },
+    "formula_recal_qty": {
+      "wmape_pct": 17.941307678349233,
+      "mape_positive_only_pct": 20.537413379872113,
+      "bias_pct": 9.103775041897903,
+      "under_order_volume_pct": 4.418766318225665,
+      "over_order_volume_pct": 13.522541360123567
+    },
+    "model_qty": {
+      "wmape_pct": 16.052277042639727,
+      "mape_positive_only_pct": 17.137689281530374,
+      "bias_pct": 5.286308206598992,
+      "under_order_volume_pct": 5.382984418020366,
+      "over_order_volume_pct": 10.669292624619358
+    },
+    "calibrated_qty": {
+      "wmape_pct": 16.052277042639727,
+      "mape_positive_only_pct": 17.137689281530374,
+      "bias_pct": 5.286308206598992,
+      "under_order_volume_pct": 5.382984418020366,
+      "over_order_volume_pct": 10.669292624619358
+    }
+  },
+  "inventory_scenarios": {
+    "formula_qty": {
+      "served_units": 39619.0,
+      "unmet_request_units": 0.0,
+      "ending_stock_units": 33186.0,
+      "closing_stock_box_days": 12012.737500000003,
+      "retrospective_excess_box_days_proxy": 4512.844397124656
+    },
+    "formula_recal_qty": {
+      "served_units": 37868.32897238216,
+      "unmet_request_units": 1750.671027617826,
+      "ending_stock_units": 5357.495661467355,
+      "closing_stock_box_days": 4353.748907318476,
+      "retrospective_excess_box_days_proxy": 252.52672527398425
+    },
+    "model_qty": {
+      "served_units": 37486.3154034245,
+      "unmet_request_units": 2132.6845965754883,
+      "ending_stock_units": 4227.067044947942,
+      "closing_stock_box_days": 4021.9788558474147,
+      "retrospective_excess_box_days_proxy": 166.35610656348362
+    },
+    "calibrated_qty": {
+      "served_units": 37486.3154034245,
+      "unmet_request_units": 2132.6845965754883,
+      "ending_stock_units": 4227.067044947942,
+      "closing_stock_box_days": 4021.9788558474147,
+      "retrospective_excess_box_days_proxy": 166.35610656348362
+    }
+  },
+  "inventory_assumptions": {
+    "horizon_days": 4,
+    "receipts": 0,
+    "backlog": false,
+    "request_proxy": "Synthetic observed shipments; not uncensored customer demand.",
+    "holding_measure": "Sum of end-of-day inventory / box size, not monetary cost.",
+    "excess_proxy_rate": "Four-day mean used for this demo, not the original steady-state window."
+  },
+  "versions": {
+    "numpy": "2.3.3",
+    "pandas": "2.3.2",
+    "lightgbm": "4.7.0",
+    "scikit-learn": "1.7.2"
+  },
+  "walk_forward": {
+    "monthly": [
+      {
+        "month": "2024-11",
+        "train_rows": 340,
+        "validation_rows": 36,
+        "test_rows": 12,
+        "cutoff": "2024-11-12",
+        "wmape_pct": 45.66080088418728,
+        "mape_positive_only_pct": 45.615996734467906,
+        "bias_pct": 45.66080088418728,
+        "under_order_volume_pct": 0.0,
+        "over_order_volume_pct": 45.66080088418728
+      },
+      {
+        "month": "2024-12",
+        "train_rows": 356,
+        "validation_rows": 32,
+        "test_rows": 20,
+        "cutoff": "2024-12-03",
+        "wmape_pct": 17.924223419376023,
+        "mape_positive_only_pct": 18.0589912357563,
+        "bias_pct": 17.347810511913902,
+        "under_order_volume_pct": 0.28820645373106035,
+        "over_order_volume_pct": 17.636016965644966
+      },
+      {
+        "month": "2025-01",
+        "train_rows": 376,
+        "validation_rows": 32,
+        "test_rows": 16,
+        "cutoff": "2025-01-07",
+        "wmape_pct": 12.634154202178763,
+        "mape_positive_only_pct": 16.122220378015566,
+        "bias_pct": 9.382949594566249,
+        "under_order_volume_pct": 1.6256023038062575,
+        "over_order_volume_pct": 11.008551898372506
+      },
+      {
+        "month": "2025-02",
+        "train_rows": 392,
+        "validation_rows": 32,
+        "test_rows": 16,
+        "cutoff": "2025-02-04",
+        "wmape_pct": 4.974664066794261,
+        "mape_positive_only_pct": 4.54378539406759,
+        "bias_pct": -0.28052782705111384,
+        "under_order_volume_pct": 2.6275959469226877,
+        "over_order_volume_pct": 2.3470681198715737
+      },
+      {
+        "month": "2025-03",
+        "train_rows": 412,
+        "validation_rows": 28,
+        "test_rows": 16,
+        "cutoff": "2025-03-04",
+        "wmape_pct": 12.351876143121906,
+        "mape_positive_only_pct": 9.882852626076657,
+        "bias_pct": -7.277012375646382,
+        "under_order_volume_pct": 9.814444259384143,
+        "over_order_volume_pct": 2.5374318837377623
+      },
+      {
+        "month": "2025-04",
+        "train_rows": 428,
+        "validation_rows": 28,
+        "test_rows": 16,
+        "cutoff": "2025-04-01",
+        "wmape_pct": 18.962937118242063,
+        "mape_positive_only_pct": 16.5525569842059,
+        "bias_pct": -10.164400674737163,
+        "under_order_volume_pct": 14.563668896489613,
+        "over_order_volume_pct": 4.399268221752449
+      }
+    ],
+    "aggregate": {
+      "wmape_pct": 16.55914058604599,
+      "mape_positive_only_pct": 17.314525329652,
+      "bias_pct": 5.820947760157163,
+      "under_order_volume_pct": 5.369096412944415,
+      "over_order_volume_pct": 11.190044173101578
+    }
+  }
+}
