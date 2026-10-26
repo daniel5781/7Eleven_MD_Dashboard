@@ -1215,12 +1215,12 @@ function App() {
             <h3>권장 발주량 검토 근거</h3>
           </div>
           <div className="evidence-actions">
-            <span className="kpi ok">모델 v6</span>
+            <span className="kpi ok">합성 예시</span>
             <span className="kpi diff">MD 검토용</span>
           </div>
         </div>
         <div className="gemini-inline-opinion">
-          <strong>Gemini 기반 검토 의견</strong>
+          <strong>규칙 기반 검토 의견</strong>
           <span>{oneLineReview}</span>
         </div>
         <div className="evidence-metrics">
@@ -2875,12 +2875,12 @@ function App() {
                                           <h3>권장 발주량 검토 근거</h3>
                                         </div>
                                         <div className="evidence-actions">
-                                          <span className="kpi ok">모델 v6</span>
+                                          <span className="kpi ok">합성 예시</span>
                                           <span className="kpi diff">MD 검토용</span>
                                         </div>
                                       </div>
                                       <div className="gemini-inline-opinion">
-                                        <strong>Gemini 기반 검토 의견</strong>
+                                        <strong>규칙 기반 검토 의견</strong>
                                         <span>{oneLineReview}</span>
                                       </div>
                                       <div className="evidence-metrics">

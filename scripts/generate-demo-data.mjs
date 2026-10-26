@@ -80,16 +80,20 @@ names.forEach((name, i) => {
     actualDataReason: '화면 동작 확인용 합성 수치',
   }
   allRows.push(row)
-  const allocations = split(recommended)
+  const allocations = split(recommended / ldu).map((boxes) => boxes * ldu)
+  const lifecycleUpper = round(recommended * 1.6)
+  const lifecycleByCenter = split(lifecycleUpper)
+  const predictedStoreCounts = split(850 + i * 12)
   const distributions = centers.map(([centerCode, centerName, share], j) => ({
     centerCode, centerName, qty: allocations[j], initialQty: allocations[j],
     reserveQty: round(anchor * share), reserveShare: share,
     storeCount: round(1200 * share), storeShare: share,
     centerWeight: 1, allocationIndex: share, weight: 1,
   }))
-  const forwardCenters = distributions.map((c) => ({
+  const forwardCenters = distributions.map((c, j) => ({
     ...c, recommendedQty: c.qty, recommendedBox: round(c.qty / ldu),
-    reservationQty: c.reserveQty, predictedStores: round(c.storeCount * 0.72),
+    reservationQty: c.reserveQty, predictedStores: predictedStoreCounts[j],
+    lifecycleDemandUpper: lifecycleByCenter[j],
   }))
   itemDetails[rowKey] = {
     reservation4d: reservation, reservationPreRelease: reservation,
@@ -121,7 +125,7 @@ names.forEach((name, i) => {
       eventNote: '합성 데이터 · 실제 모델 성능을 나타내지 않습니다.' },
     forwardPrediction: { itemCode, itemName: row.itemName, reservationQty: anchor,
       recommendedQty: recommended, recommendedBox: round(recommended / ldu),
-      predictedStores: 864, lifecycleDemandUpper: round(recommended * 1.6),
+      predictedStores: 850 + i * 12, lifecycleDemandUpper: lifecycleUpper,
       centerCount: 5, centers: forwardCenters, source: 'synthetic-demo' },
     recommendationEvidence: { reservationDecisionSum: anchor, reservationInitial4Sum: round(anchor * 0.48),
       frontloadRatio: 48, similarAvgOrderQty: round(recommended * 0.93), similarAvgAdequacyRate: 117,
