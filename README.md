@@ -1,6 +1,6 @@
 # 7-Eleven · Inventory Analytics
 
-**신상품 초도발주 예측, 시간순 검증, 재고 시나리오와 의사결정 지원**
+**신상품 초기 출고량 예측, 시간순 검증과 발주 수량별 재고 비교**
 
 [![Modeling checks](https://github.com/daniel5781/7Eleven_MD_Dashboard/actions/workflows/modeling.yml/badge.svg)](https://github.com/daniel5781/7Eleven_MD_Dashboard/actions/workflows/modeling.yml)
 [![Portfolio demo](https://github.com/daniel5781/7Eleven_MD_Dashboard/actions/workflows/pages.yml/badge.svg)](https://github.com/daniel5781/7Eleven_MD_Dashboard/actions/workflows/pages.yml)
@@ -13,16 +13,25 @@
 
 > **공개본의 데이터와 실행 결과는 모두 합성 예시입니다.** 기업 원자료, 기존 학습 가중치와 실제 예측 결과는 포함하지 않습니다. 여기서 측정한 점수는 실제 모델 성능이나 비용 절감 실적이 아닙니다.
 
-## 분석에서 의사결정까지
+## 공개본의 두 실행 흐름
+
+업무에서는 예측과 재고 분석을 MD의 수량 검토에 활용합니다.
+현재 공개 구현은 Python 모델 예제와 웹 데모를 각각 실행하는 구조입니다.
 
 ```mermaid
-flowchart LR
-  A[예약 이벤트와 시점별 마스터] --> B[33개 피처]
-  B --> C[초도 출고량 예측]
-  C --> D[시간순 검증]
-  D --> E[과소·과다 발주와 재고 시나리오]
-  E --> F[MD 검토와 수량 조정]
+flowchart TB
+  subgraph Python[Python 모델 예제]
+    A[합성 이벤트와 시점별 마스터] --> B[33개 피처와 출고량 예측]
+    B --> C[시간순 검증과 재고 시나리오]
+    C --> D[보고서와 예측 JSON]
+  end
+  subgraph Web[독립된 웹 데모]
+    E[화면용 합성 JSON] --> F[MD 수량 검토와 센터별 배분]
+  end
 ```
+
+두 흐름 사이의 자동 연결은 구현하지 않았습니다. 출력 키·단위와 필요한 변환은
+[모델 출력과 대시보드 연결](modeling/README.md#출력과-대시보드-연결)에 정리했습니다.
 
 | 단계 | 공개 구현 |
 | --- | --- |
@@ -31,7 +40,7 @@ flowchart LR
 | 추가 실험 | 배수·원수량·로그 타깃을 검증 구간에서 결합하는 3타깃 블렌드 |
 | 검증 | 시간순 홀드아웃, 라벨 확정 시점에 따른 경계 제외, 월별 walk-forward |
 | 운영 비교 | 검증 구간에서 선택한 α 보정, 과소·과다 발주 물량, 재고 보유량 시나리오 |
-| 활용 화면 | 상품 상세, 예약 추이, 추천량 검토, 센터별 배분과 과거 상품 조회 |
+| 활용 화면 | 독립된 합성 JSON으로 상품 상세, 예약 추이, 추천량 검토, 센터별 배분과 과거 상품 조회 |
 
 ## 모델의 핵심
 
